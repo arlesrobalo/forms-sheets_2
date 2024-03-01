@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7cf3c;
+  font-family: 'Archivo', sans-serif;
+  color: #313131;
+}
+
+form {
+  background-color: #f7f7f7;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #313131;
+  display: flex;
+  flex-direction: column;
+  margin: 30vh auto;
+  width: 30vw;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #00548e;
+  font-size: 15pt;
+  margin-bottom: 3px;
+}
+
+input {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #00548e;
+  border-radius: 4px;
+  width: 90%;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #00548e;
+  color: #fff;
+  font-size: 15pt;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+@media (max-width: 700px) {
+  form {
+    background-color: #f7f7f7;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #313131;
+    display: flex;
+    flex-direction: column;
+    margin: 20vh auto;
+    width: 70vw;
+    padding: 20px;
+  }
+  button {
+    background-color: #00548e;
+    color: #fff;
+    font-size: 15pt;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+}
